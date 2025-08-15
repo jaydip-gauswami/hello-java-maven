@@ -1,9 +1,9 @@
 # hello-java-maven
 
-Minimal Java project to demonstrate a Jenkins Freestyle job with Maven.
+This is a simple Java Hello World project built using Maven, designed for Jenkins CI/CD testing.
 
-## Build locally (optional)
+## Build Locally
 ```bash
-mvn -B clean package
+mvn clean package
 java -cp target/hello-1.0-SNAPSHOT.jar com.example.HelloWorld
-```
+
